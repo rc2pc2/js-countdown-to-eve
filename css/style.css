@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    background-color: #011627;
+    color: white;
+}
+
+h1,
+h2{
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+button,
+select{
+    border: none;
+    font-size: 1.25rem;
+    padding: .4rem .8rem;
+    /* border-radius: 15px; */
+    background-color: #1bdf9e;
+    color: white;
+}
+
+button:hover,
+select:hover{
+    background-color: #74e3be;
+}
+
+main{
+    padding: 2rem;
+}
+
